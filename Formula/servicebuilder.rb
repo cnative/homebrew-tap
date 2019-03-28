@@ -2,9 +2,9 @@
 class Servicebuilder < Formula
   desc "A gRPC based Micro Service scaffolding in GoLang with HTTP/JSON gRPC gateway"
   homepage "https://cnative.dev"
-  url "https://github.com/cnative/servicebuilder/releases/download/v0.8.2/servicebuilder_Darwin_x86_64.tar.gz"
-  version "0.8.2"
-  sha256 "b9b343b66ef32c8f2a8907813d2d48dd8bb29c8cbb067466eb35053a913c2303"
+  url "https://github.com/cnative/servicebuilder/releases/download/v0.8.3/servicebuilder_Darwin_x86_64.tar.gz"
+  version "0.8.3"
+  sha256 "891ce24721c04ec7872220dbfc80c56c9a0efa31b24818dced8aa01aeb4374d6"
 
   def install
     bin.install "servicebuilder"
