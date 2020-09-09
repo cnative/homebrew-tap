@@ -2,16 +2,16 @@
 class Servicebuilder < Formula
   desc "A gRPC based Micro Service scaffolding in GoLang with HTTP/JSON gRPC gateway"
   homepage "https://cnative.dev"
-  version "0.9.9"
+  version "0.9.10"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/cnative/servicebuilder/releases/download/v0.9.9/servicebuilder_darwin_amd64.tar.gz"
-    sha256 "3561674a05e92275f8bc05bee435d061d2272bad877232f3a36cdf10298d5fef"
+    url "https://github.com/cnative/servicebuilder/releases/download/v0.9.10/servicebuilder_darwin_amd64.tar.gz"
+    sha256 "945057b1c48077ba09043960806f44b472f3a0d9b48d2ff50698c100e7b5022d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/cnative/servicebuilder/releases/download/v0.9.9/servicebuilder_linux_amd64.tar.gz"
-      sha256 "a4bae418572ddf026fd4c1a71bde15931c4b35f71bdfdae13ca7f20eb1f9da74"
+      url "https://github.com/cnative/servicebuilder/releases/download/v0.9.10/servicebuilder_linux_amd64.tar.gz"
+      sha256 "56326d2d978c272fadb38af980e7f8c9b93c79cf76cdca0fe331d642364855cc"
     end
   end
 
